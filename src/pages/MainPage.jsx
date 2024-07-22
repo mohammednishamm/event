@@ -7,7 +7,9 @@ import InstaIcon from './images/instagram-symbol.png'
 import PinterestIcon from './images/pinterest.png'
 import MailIcon from './images/envelope.png'
 import { Link } from 'react-router-dom'
+import { BiMenu } from 'react-icons/bi'
 const MainPage = () => {
+
     const [navModal, setNavModal] = useState(false)
     const [currentImage, setCurrentImage] = useState('');
 
@@ -35,8 +37,10 @@ const MainPage = () => {
     <>
     <div>
           <div className='  p-0 d-flex justify-content-center  align-items-center position-relative  about-potos-ad-div z-0'>
+         
                     <img className='img1 z-0' src={currentImage} alt="" />
-                 
+                
+                    <span className='d-md-none d-block position-absolute top-0 end-0' ><BiMenu style={{fontSize:"28px"}}/></span>
                     <div className='d-flex flex-column bg-light col-5 align-items-start position-absolute p-4 gap-3  positionsmain'>
                              <span className='fs-5 font-monospace'> TO KNOW US IS TO LOVE US!</span>
                              <span className='text-start fw-lighter'>We design your dream event with classic ideas , extreme themes and loves</span>
@@ -45,9 +49,7 @@ const MainPage = () => {
                 </div>
     </div>
    
-    
-    
-    
+   
    
     </>
   )
