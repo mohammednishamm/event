@@ -1,0 +1,28 @@
+.backgroundndmain{
+  width: 95%;
+  height: 300px ;
+  background:fixed url("https://images3.alphacoders.com/278/thumb-1920-2785.jpg");
+  margin-top: 80px;
+  margin-left: 25px;
+  display: flex;
+  flex-direction: column;
+
+  align-items: normal;
+  justify-content: center;
+}
+
+@media(max-Width:768px){
+    .backgroundndmain{
+        width: 100%;
+        height: 300px ;
+        background:fixed url("https://images3.alphacoders.com/278/thumb-1920-2785.jpg");
+        margin-top: 80px;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+      
+        align-items: normal;
+        justify-content: center;
+      }
+      
+}
