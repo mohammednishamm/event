@@ -1,12 +1,50 @@
 import React from 'react'
-import a2 from './images/jonathan-borba-flower.jpg'
+import a1 from './images/jonathan-borba-flower.jpg'
 import a3 from './images/anna-vi-rQSauuUzx0w-unsplash.jpg'
+
 const MainPage = () => {
   return (
-    <div className='col-12 bg-danger main-image-container'>
-
-
+    <>
+     <div className="d-flex position-absolute context  flex-md-row  flex-column mt-5 ms-3 gap-5 muunnu">
+      <div className=" conatinerofsecond d-flex flex-column align-items-start ps-3 mt-5 gap-2"  data-aos='fade-up'>
+        <span className="fs-4 font-monospace"  data-aos='fade-up'>ABOUT US</span>
+        <span className="texteventhead"  data-aos='fade-up'>An Event Supporting Company</span>
+        <span className="text-start textinab"  data-aos='fade-up'>
+          As we step into the limelight, Artist Bank is committed to pushing the
+          boundaries of entertainment. Our journey is fueled by a deep-seated
+          passion for the arts, a boundless wellspring of creativity, and an
+          unwavering dedication to excellence. <br /><br /> We strive to redefine the
+          landscape of entertainment, constantly seeking innovative ways to
+          captivate and inspire audiences worldwide.
+        </span>
+        <span className="text-start textinab mt-3"  data-aos='fade-up'>
+        With every project we undertake, our goal is to set new standards of brilliance and artistic achievement, forging a path that others can only aspire to follow.
+        </span>
+        <span className="text-start textinab mt-3"  data-aos='fade-up'>
+          At Artist Bank, we've meticulously crafted a comprehensive suite of
+          services designed to elevate every aspect of your
+          entertainment endeavors.
+        </span>
+      </div>
+      
+      <img  data-aos='fade-up'  className="img-conatiner-ab mt-5" src={a1} alt="" />
     </div>
+
+<div class="area" >
+        <ul class="circles">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+        </ul>
+</div >
+</>
   )
 }
 

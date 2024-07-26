@@ -10,6 +10,7 @@ import Background from './Background'
 import Mentor from './Mentor'
 import Footer from './Footer'
 import { FiMenu } from 'react-icons/fi'
+import About from './About'
 const Home1 = () => {
 
   return (
@@ -19,7 +20,8 @@ const Home1 = () => {
       
         <div className='contentmain'>
          <MainPage/>
-         <Second/>
+         <About/>
+         {/* <Second/> */}
          <Service/>
          <div className='backadditional'>
           <Mentor />

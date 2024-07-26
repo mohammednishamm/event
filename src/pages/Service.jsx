@@ -19,7 +19,7 @@ const Service = () => {
       };
   return (
 <div className='main-conatibner-ser '>
-<span className="fs-5 font-monospace ms-4">OUR SERVICES</span>
+<span className="fs-4 font-monospace ms-4">OUR SERVICES</span>
     
      <Swiper
         spaceBetween={30}
@@ -45,7 +45,7 @@ const Service = () => {
                 slidesPerView: 2,
             },
             1024: {
-                slidesPerView: 3,
+                slidesPerView: 4,
             },
         }}
       >
@@ -72,7 +72,7 @@ const Service = () => {
            Pr.Celebrity Management
           </h2>
           <p>
-          <FaArrowRightLong />
+          <FaArrowRightLong className='fs-4' />
           </p>
         
         </div>
@@ -85,7 +85,7 @@ const Service = () => {
             Live Concert
           </h2>
           <p>
-          <FaArrowRightLong />
+          <FaArrowRightLong className='fs-4'/>
           </p>
         
         </div>
@@ -98,7 +98,7 @@ const Service = () => {
             Artist Management
           </h2>
           <p>
-          <FaArrowRightLong />
+          <FaArrowRightLong className='fs-4'/>
           </p>
         
         </div>
@@ -111,7 +111,7 @@ const Service = () => {
            Music Band
           </h2>
           <p>
-          <FaArrowRightLong />
+          <FaArrowRightLong className='fs-4'/>
           </p>
         
         </div>
@@ -123,7 +123,7 @@ const Service = () => {
             Rentals
           </h2>
           <p>
-          <FaArrowRightLong />
+          <FaArrowRightLong className='fs-4'/>
           </p>
         
         </div>

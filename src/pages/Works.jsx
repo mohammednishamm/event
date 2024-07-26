@@ -17,7 +17,7 @@ const Works = () => {
       })
   return (
     <div className='work-work'>
-        <span className="fs-5 font-monospace ms-4">OUR WORKS</span>
+        <span className="fs-4 font-monospace ms-4">OUR WORKS</span>
          <div className='container-fluid p-md-4 p-4 d-flex justify-content-center  portfolio-images-main-div'>
 
 <div className=' gap-2 col-12  portfolio-images-gallery-div '>
