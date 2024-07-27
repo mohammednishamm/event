@@ -62,7 +62,7 @@ const MainPage = () => {
                     {/* <BiMenu style={{ fontSize: "28px" }} /> */}
                 </span>
                 <div className='d-flex flex-column bg-light col-5 align-items-center justify-content-center position-absolute p-4 gap-3 positionsmain'>
-                    <div className='text-center ms-5'>
+                    <div className='text-center  ms-md-5 ms-0'>
                         <TransitionGroup>
                             {isContentVisible && (
                                 <>

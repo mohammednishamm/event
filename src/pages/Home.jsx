@@ -11,6 +11,7 @@ import Mentor from './Mentor'
 import Footer from './Footer'
 import { FiMenu } from 'react-icons/fi'
 import About from './About'
+import Blog from './Blog'
 const Home1 = () => {
 
   return (
@@ -28,6 +29,7 @@ const Home1 = () => {
          <Background/>
          </div>
          <Works/>
+         <Blog/>
          <Footer/>
         </div>
     </div>
